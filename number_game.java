@@ -28,9 +28,9 @@
                     break;
                 }
             }
-            System.out.println("do you want to play one more time then enter yes ");
-            String onemore=scanner.nextLine();
-            if(onemore!="yes"){
+            System.out.println("do you want to play one more time then enter 1 ");
+            int onemore=scanner.nextInt();
+            if(onemore!=1){
                 break;
             }
         }
