@@ -9,7 +9,7 @@
         int upperrange = 100;
         int maxattempts=10;
         int score = 0;
-        System.out.print("Welcome to the number game");
+        System.out.println("Welcome to the number game");
         while(true){
             int randomnum=random.nextInt(upperrange-lowerrange+1)+lowerrange;
             int attempts=0;
